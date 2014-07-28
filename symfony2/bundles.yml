@@ -1,0 +1,44 @@
+category: Bundles
+questions:
+    -
+        question: 'What is the method name in the Kernel class to enable bundles?'
+        answers:
+            - {value: enable(),          correct: false}
+            - {value: enableBundles(),   correct: false}
+            - {value: register(),        correct: false}
+            - {value: registerBundles(), correct: true}
+    -
+        question: 'Which method is executed once when bundle is loaded after cache is cleared?'
+        answers:
+            - {value: __construct(), correct: false}
+            - {value: build(),       correct: true}
+            - {value: boot(),        correct: false}
+            - {value: bootstrap(),   correct: false}
+    -
+        question: 'Which of these bundles comes with the Symfony Standard Edition?'
+        answers:
+            - {value: SensioFrameworkExtraBundle, correct: true}
+            - {value: DoctrineFixturesBundle,     correct: false}
+            - {value: DoctrineMigrationBundle,    correct: false}
+            - {value: SensioDoctrineBundle,       correct: false}
+    -
+        question: 'Using Config component, which class is used to define hierarchy of configuration values?'
+        answers:
+            - {value: Symfony\Component\Config\Definition\Builder\TreeBuilder,      correct: true}
+            - {value: Symfony\Component\Config\Definition\Builder\HierarchyBuilder, correct: false}
+            - {value: Symfony\Component\Config\Definition\Builder\NodeBuilder,      correct: false}
+            - {value: Symfony\Component\Config\Definition\Builder\Builder,          correct: false}
+    -
+        question: 'Using Config component, which of these configuration node types are available?'
+        answers:
+            - {value: scalar, correct: true}
+            - {value: array,  correct: true}
+            - {value: enum,   correct: true}
+            - {value: string, correct: false}
+    -
+        question: 'Using Config component, which of these methods are existing?'
+        answers:
+            - {value: useAttributeAsKey(), correct: true}
+            - {value: isRequired(),        correct: true}
+            - {value: setDefaultValue(),   correct: false}
+            - {value: setValidation(),     correct: false}
