@@ -1,0 +1,15 @@
+configuration:
+    name: symfony2
+    label: Symfony 2
+    availableLanguages: [ en ]
+    availableLevels: ~
+    logo:
+    threshold:
+        newbie: 30
+        beginner: 45
+        good: 75
+        very_good: 85
+        expert: 95
+        god: 100
+    defaults:
+        language: en
