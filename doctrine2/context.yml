@@ -1,5 +1,5 @@
-name: symfony2
-label: Symfony 2
+name: doctrine2
+label: Doctrine 2
 availableLanguages: [ en ]
 availableLevels: ~
 numberOfQuestions: 5
