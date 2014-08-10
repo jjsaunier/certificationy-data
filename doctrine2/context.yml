@@ -1,11 +1,11 @@
 name: doctrine2
+icons: devicons-doctrine
 label: Doctrine 2
 availableLanguages: [ en ]
 availableLevels: ~
-numberOfQuestions: 5
-logo:
-allowExcludeCategories: true
-allowCustomNumberOfQuestions: true
+customize:
+    exclude_categories: true
+    number_of_questions: true
 threshold:
     newbie: 30
     beginner: 45
@@ -15,3 +15,4 @@ threshold:
     god: 100
 defaults:
     language: en
+    questions_peer_category: 5
