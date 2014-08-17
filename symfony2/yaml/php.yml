@@ -3,24 +3,24 @@ questions:
     -
         question: 'What is the short open tag for PHP?'
         answers:
-            - {value: <!,   correct: false}
-            - {value: <%,   correct: false}
-            - {value: <?,   correct: true}
-            - {value: <?=,  correct: false}
+            - {value: '<!',   correct: false}
+            - {value: '<%',   correct: false}
+            - {value: '<?',   correct: true}
+            - {value: '<?=',  correct: false}
     -
         question: 'Which of these operators is non-associative?'
         answers:
-            - {value: !,    correct: false}
-            - {value: **,   correct: false}
-            - {value: <,    correct: true}
-            - {value: and,  correct: false}
+            - {value: '!',    correct: false}
+            - {value: '**',   correct: false}
+            - {value: '<',    correct: true}
+            - {value: 'and',  correct: false}
     -
         question: 'If function foo() is defined in the namespace myapp\utils\bar and your code is in namespace myapp, what is the correct way to import the bar namespace so you can use the foo() function?'
         answers:
-            - {value: use bar,                  correct: false}
-            - {value: use myapp\utils\bar,      correct: true}
-            - {value: use utils\bar,            correct: false}
-            - {value: use myapp\utils\bar\foo;, correct: false}
+            - {value: 'use bar',                  correct: false}
+            - {value: 'use myapp\utils\bar',      correct: true}
+            - {value: 'use utils\bar',            correct: false}
+            - {value: 'use myapp\utils\bar\foo;', correct: false}
     -
         question: 'Which web services are supported natively in PHP?'
         answers:
@@ -43,7 +43,7 @@ questions:
             - {value: yes but it depends on the function scope,     correct: false}
             - {value: no except when it is an anonymous function,   correct: false}
     -
-        question: 'Which of the following statements is not true?'
+        question: 'Does PHP support function overloading?'
         answers:
             - {value: 'In PHP>=5.6 argument lists may include the ... token to denote that the function accepts a variable number of arguments',                  correct: false}
             - {value: 'A function name, as other labels in PHP, must match the following regular expression: [a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*',           correct: false}
