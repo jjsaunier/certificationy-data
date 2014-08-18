@@ -1,6 +1,6 @@
-name: doctrine2
+name: doctrine2-orm
 icons: devicons-doctrine
-label: Doctrine 2
+label: Doctrine 2 ORM
 availableLanguages: [ en ]
 availableLevels: ~
 customize:
