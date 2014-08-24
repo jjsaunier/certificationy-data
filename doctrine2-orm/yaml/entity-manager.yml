@@ -1,1 +1,27 @@
 category: Entity Manager
+questions:
+    -
+        question: Can you extend from Entity Manager to provide your own ?
+        answers:
+            - { value: "No, because it's final class", correct: false }
+            - { value: "No, I must rewrite her from scratch", correct: false }
+            - { value: "Yes I can, but extend is wrong. Make decoration is the right way.", correct: true }
+            - { value: Yes, correct: false }
+    -
+        question: From Entity Manager you can access to
+        answers:
+            - { value: Doctrine Configuration, correct: true }
+            - { value: Doctrine Event Manager, correct: true }
+            - { value: Doctrine Metadata Factory, correct: true }
+            - { value: Doctrine Unit Of Work, correct: true }
+            - { value: Doctrine Entity Factory, correct: false }
+    -
+        question: Entity Manager can execute simple query ?
+        answers:
+            - { value: Yes, correct: true }
+            - { value: No, correct: false }
+    -
+        question: Entity Manager can execute complexe query ?
+        answers:
+            - { value: Yes, correct: true }
+            - { value: No, correct: false }
