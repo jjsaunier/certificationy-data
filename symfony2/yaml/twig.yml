@@ -17,8 +17,8 @@ questions:
     -
         question: 'Using Twig, syntax {% block example '''' %} is equivalent to {% block example %}{% endblock %}'
         answers:
-            - {value: Yes, correct: true}
-            - {value: No,  correct: false}
+            - {value: "Yes", correct: true}
+            - {value: "No",  correct: false}
     -
         question: 'Using Twig, how to declare a variable in a template?'
         answers:
@@ -29,17 +29,17 @@ questions:
     -
         question: 'In class \Twig_Extension, which method returns list of functions?'
         answers:
-            - {value: getExtensions(),    correct: false}
-            - {value: getFunctions(),     correct: true}
-            - {value: getOperators(),     correct: false}
-            - {value: getFunctionList(),  correct: false}
+            - {value: "getExtensions()",    correct: false}
+            - {value: "getFunctions()",     correct: true}
+            - {value: "getOperators()",     correct: false}
+            - {value: "getFunctionList()",  correct: false}
     -
         question: 'Using Twig, which comparison operator is not available?'
         answers:
-            - {value: ends with, correct: false}
-            - {value: matches,   correct: false}
-            - {value: in,        correct: false}
-            - {value: contains,  correct: true}
+            - {value: "ends with", correct: false}
+            - {value: "matches",   correct: false}
+            - {value: "in",        correct: false}
+            - {value: "contains",  correct: true}
     -
         question: 'Using Twig, what syntax used to execute statements?'
         answers:
