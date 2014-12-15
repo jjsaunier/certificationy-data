@@ -48,5 +48,3 @@ questions:
             - { value: "rollback()", correct: true }
             - { value: "finishTransaction()", correct: false }
             - { value: "clear()", correct: true }
-    -
-        question: ""
