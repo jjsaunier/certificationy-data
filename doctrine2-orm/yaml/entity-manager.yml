@@ -25,3 +25,28 @@ questions:
         answers:
             - { value: "Yes", correct: true }
             - { value: "No", correct: false }
+    -
+        question: "Can I multiple instance of Entity Manager in the same project ?"
+        answers:
+            - { value: "Yes", correct: true }
+            - { value: "No", correct: false }
+    -
+        question: "Entity Manager can only manage mapped object ?"
+        answers:
+            - { value: "Yes", correct: true }
+            - { value: "No", correct: false }
+    -
+        question: "On Entity Manager you can call :"
+        answers:
+            - { value: "merge()", correct: true }
+            - { value: "unlock()", correct: false }
+            - { value: "detach()", correct: true }
+            - { value: "lock()", correct: true }
+            - { value: "find()", correct: true }
+            - { value: "beginTransaction()", correct: true }
+            - { value: "commit()", correct: true }
+            - { value: "rollback()", correct: true }
+            - { value: "finishTransaction()", correct: false }
+            - { value: "clear()", correct: true }
+    -
+        question: ""
