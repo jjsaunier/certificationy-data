@@ -10,10 +10,10 @@ questions:
     -
         question: 'What is the LoggerInterface correct namespace?'
         answers:
-            - {value: "Psr\LoggerInterface",                        correct: false}
-            - {value: "Psr\Log\LoggerInterface",                    correct: true}
-            - {value: "Symfony\Bridge\Monolog\LoggerInterface",     correct: false}
-            - {value: "Symfony\Bridge\Monolog\Log\LoggerInterface", correct: false}
+            - {value: "Psr\\LoggerInterface",                        correct: false}
+            - {value: "Psr\\Log\\LoggerInterface",                    correct: true}
+            - {value: "Symfony\\Bridge\\Monolog\\LoggerInterface",     correct: false}
+            - {value: "Symfony\\Bridge\\Monolog\\Log\\LoggerInterface", correct: false}
     -
         question: 'Using a dev environment, what is the correct cached file name of the dependency injection container?'
         answers:
