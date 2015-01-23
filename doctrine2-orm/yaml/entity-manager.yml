@@ -48,3 +48,8 @@ questions:
             - { value: "rollback()", correct: true }
             - { value: "finishTransaction()", correct: false }
             - { value: "clear()", correct: true }
+    -
+        question: "I have as many Entitymanager as I want"
+        answers:
+            - { value: "True", correct: true }
+            - { value: "False", correct: false }
