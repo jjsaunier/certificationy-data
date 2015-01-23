@@ -4,8 +4,8 @@ questions:
         question: "Can you extend from Entity Manager to provide your own ?"
         answers:
             - { value: "No, because it's final class", correct: false }
-            - { value: "No, I must rewrite her from scratch", correct: false }
-            - { value: "Yes I can, but extend is wrong. Make decoration is the right way.", correct: true }
+            - { value: "No, I must rewrite it from scratch", correct: false }
+            - { value: "Yes I can, but inheritance is not good a good solution. Make decoration is the right way.", correct: true }
             - { value: "Yes", correct: false }
     -
         question: "From Entity Manager you can access to"
