@@ -75,7 +75,7 @@ It must contains :
  - rules about contribution
  - warn contributor if the certification is related to an official certification (like symfony2); The goal is only to train no to leak !!!
  
- Thanks to all contributors :)
+Thanks to all contributors :)
  
 
 
