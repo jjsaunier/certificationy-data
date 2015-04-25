@@ -56,3 +56,11 @@ questions:
             - {value: "$container->findDefinition('my.service')",       correct: true}
             - {value: "$container->retrieveDefinition('my.service')",   correct: false}
             - {value: "$container->getService('my.service')",           correct: false}
+    -
+        question: 'What are existing pass order ?'
+        answers:
+            - {value: "PassConfig::TYPE_BEFORE_OPTIMIZATION", correct: true}
+            - {value: "PassConfig::TYPE_OPTIMIZE",            correct: true}
+            - {value: "PassConfig::TYPE_BEFORE_REMOVING",     correct: true}
+            - {value: "PassConfig::TYPE_REMOVE",              correct: true}
+            - {value: "PassConfig::TYPE_AFTER_COMPILING",     correct: false}
