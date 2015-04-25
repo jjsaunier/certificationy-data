@@ -64,3 +64,10 @@ questions:
             - {value: "PassConfig::TYPE_BEFORE_REMOVING",     correct: true}
             - {value: "PassConfig::TYPE_REMOVE",              correct: true}
             - {value: "PassConfig::TYPE_AFTER_COMPILING",     correct: false}
+    -
+        question: "As dev environment, what is the name of dumped container ?"
+        answers:
+            - {value: "appDevDebugProjectContainer.php",    correct: true}
+            - {value: "appDevProjectContainer.php",         correct: false}
+            - {value: "appDevDebugProjectServiceContainer", correct: false}
+            - {value: "appDevDebugContainer",               correct: false}
