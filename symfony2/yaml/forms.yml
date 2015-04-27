@@ -64,19 +64,19 @@ questions:
     -
         question: 'What data is inside FormEvent object at FormEvents::PRE_SET_DATA?'
         answers:
-            - {value: "Model data",             correct: true}
-            - {value: "Model data normalized",  correct: false}
-            - {value: "Request data",           correct: false}
-            - {value: "View data",              correct: false}
+            - {value: "Model data",      correct: true}
+            - {value: "Normalized data", correct: false}
+            - {value: "Request data",    correct: false}
+            - {value: "View data",       correct: false}
     -
         question: 'What data is inside FormEvent object at FormEvents::PRE_SUBMIT?'
         answers:
-            - {value: "Model data",             correct: false}
-            - {value: "Model data normalized",  correct: false}
-            - {value: "Request data",           correct: true}
-            - {value: "View data",              correct: false}
+            - {value: "Model data",      correct: false}
+            - {value: "Normalized data", correct: false}
+            - {value: "Request data",    correct: true}
+            - {value: "View data",       correct: false}
     -
-        question: 'Which text type exist?'
+        question: 'Which ones of these types extends from TextType?'
         answers:
             - {value: "money",    correct: true}
             - {value: "currency", correct: true}
@@ -90,12 +90,12 @@ questions:
             - {value: "time",       correct: true}
             - {value: "timestamp",  correct: false}
     -
-        question: 'How do you attach a constraint to a form field?'
+        question: 'How do you bind a constraint to a form field?'
         answers:
             - {value: "Using option 'constraints' in $formBuilder->add()",          correct: true}
             - {value: "Passing constraint instance in $this->createFormBuilder()",  correct: false}
             - {value: "Invoke $formBuilder->setConstraints() method",               correct: false}
-            - {value: "Add an annotation in model",                                 correct: false}
+            - {value: "Add an annotation in model",                                 correct: true}
     -
         question: 'Using form component, option "error_bubbling" will include error in current field.'
         answers:
