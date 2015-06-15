@@ -35,3 +35,16 @@ questions:
             - {value: "Symfony\Component\Console\OutputStyleFormatter", correct: false}
             - {value: "Symfony\Component\Console\OutputStyle",          correct: false}
             - {value: "Symfony\Component\Console\OutputFormatter",      correct: false}
+    -
+        question: 'Which constant of Symfony\Component\Console\Input\InputOption can be used to get a boolean value?'
+        answers:
+            - {value: "InputOption::VALUE_OPTIONAL", correct: false}
+            - {value: "InputOption::VALUE_NONE", correct: true}
+            - {value: "InputOption::VALUE_BOOLEAN", correct: false}
+            - {value: "InputOption::VALUE_REQUIRED", correct: false}
+    -
+        question: 'Which sentence is correct for an option created with Symfony\Component\Console\Input\InputOption::VALUE_REQUIRED ?'
+        answers:
+            - {value: "Option can be omitted", correct: true}
+            - {value: "Option must be provided", correct: false}
+            - {value: "Option must have a value", correct: true}
