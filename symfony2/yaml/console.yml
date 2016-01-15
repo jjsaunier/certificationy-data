@@ -31,10 +31,10 @@ questions:
     -
         question: 'Using Console component, which of these class allows to create custom output styles?'
         answers:
-            - {value: "Symfony\Component\Console\OutputFormatterStyle", correct: true}
-            - {value: "Symfony\Component\Console\OutputStyleFormatter", correct: false}
-            - {value: "Symfony\Component\Console\OutputStyle",          correct: false}
-            - {value: "Symfony\Component\Console\OutputFormatter",      correct: false}
+            - {value: "Symfony\Component\Console\Formatter\OutputFormatterStyle", correct: true}
+            - {value: "Symfony\Component\Console\Formatter\OutputStyleFormatter", correct: false}
+            - {value: "Symfony\Component\Console\Formatter\OutputStyle",          correct: false}
+            - {value: "Symfony\Component\Console\Formatter\OutputFormatter",      correct: false}
     -
         question: 'Which constant of Symfony\Component\Console\Input\InputOption can be used to get a boolean value?'
         answers:
